@@ -21,6 +21,10 @@ class xLang extends Xengine {
 			);
 		}
 
+	function __construct($sdx=null){
+		$this->sdx = $sdx;
+	}
+
 	function autoRun($X){
 		// Language Defaults to English.  
 		

@@ -6,23 +6,29 @@ class xShopLang {
 	var $_LANG = array(
 		'JUMBO' => array(
 			'HEAD' => '"Thank You! Come Again!"',
-			'QUOTE' => 'Welcome to your Online Bazaar! Here is where you connect to the world to exchange your goods and services.',
+			'QUOTE' => '<b>Welcome</b>; to your Online Bazaar. Where you connect to the world to exchange Goods & Services.',
 			'BTN'	=> array(
-				'catalog'	=> array(
-					'a' => '<i class="fa fa-book"></i> Catalog &nbsp; ',
-					'class' => 'btn-danger'
-				),
+
 				'upload'	=> array(
 					'a' => '<i class="fa fa-cloud-upload"></i> Upload &nbsp; ',
 					'class' => 'btn-info'
 				),
+				'catalog'	=> array(
+					'a' => '<i class="fa fa-book"></i> Catalog &nbsp; ',
+					'class' => 'btn-primary'
+				),
 				'orders'	=> array(
-					'a' => '<i class="fa fa-truck"></i> Orders &nbsp; ',
+					'a' => '<i class="fa fa-money"></i> Payments &nbsp; ',
 					'class' => 'btn-success'
+				),
+				'shipments'	=> array(
+					'a' => '<i class="fa fa-truck"></i> Shipments &nbsp; ',
+					'class' => 'btn-danger'
 				)
 			)
 		),
 		'catalog' => array(
+			'ICON'  => 'fa-book',
 			'JUMBO' => array(
 				'HEAD' => 'Catalog',
 				'QUOTE' => 'An interactive catalog manager. Oragnize your goods for the good of your customers ;)',

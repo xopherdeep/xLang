@@ -11,26 +11,26 @@
  * @DELETEBTN Remove<br/>Section
  * @blah
  */
-class xNavigationLang {
+class xVitalsLang {
 	// Used for Complex values.
 	var $_LANG = array(
-		'ICON' => 'fa-sitemap',
+		'ICON' => 'fa-bar-chart',
 		'JUMBO' => array(
 
-			'HEAD' => 'Welcome Aboard!',
-			'QUOTE' => 'Here is ware yar set a path for ye vistors.',
+			'HEAD' => 'Domain Vitals',
+			'QUOTE' => 'Stats fit for a King\'s Dom',
 			'BTN'	=> array(
 				'create'	=> array(
-					'a' => '<i class="fa fa-link"></i> New Link &nbsp; ',
+					'a' => '<i class="fa fa-pencil"></i> New Log &nbsp; ',
 					'class' => 'btn-success'
 				),
 				'read'	=> array(
-					'a' => '<i class="fa fa-book"></i> Index &nbsp; ',
+					'a' => '<i class="fa fa-book"></i> Archives &nbsp; ',
 					'class' => 'btn-info'
 				),
 				'update'	=> array(
-					'a' => '<i class="fa fa-warning"></i> 404 Pages &nbsp; ',
-					'class' => 'btn-warning'
+					'a' => '<i class="fa fa-tag"></i> Tags &nbsp; ',
+					'class' => 'btn-primary'
 				),
 				'delete'	=> array(
 					'a' => '<i class="fa fa-bomb"></i> Delete &nbsp; ',

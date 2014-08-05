@@ -21,16 +21,58 @@ class xBloxLang {
 				'icon' => ''
 			),
 		),
-		'JUMBO' => array(
+		'ICON' => 'fa-cubes',
+		'JUMBO' => array( 
 			'HEAD' => 'Play in the Toy Blox',
-			'QUOTE' => 'Welcome to your Online Bazaar! Here is where you connect to the world to exchange your goods and services.',
+			'QUOTE' => 'Jump right in! Become aquainted with the many different blocks to use to build your Kingdom.',
 			'BTN'	=> array( 
-				'jumpin'	=> array(
-					'a' => 'Jump In <i class="fa fa-play"></i>  ',
-					'class' => 'alert-info'
-				)
+				
+				'read'	=> array(
+					'a' => '<i class="fa fa-book"></i>  All Blox ',
+					'class' => 'btn-info'
+				),
+				'create'	=> array(
+					'a' => '<i class="fa fa-cube"></i>  Create Blox ',
+					'class' => 'btn-success'
+				),
+				'update'	=> array(
+					'a' => '<i class="fa fa-cubes"></i>  Edit Blox ',
+					'class' => 'btn-primary'
+				),
+				'delete'	=> array(
+					'a' 	=> '<i class="fa fa-bomb"></i>   Delete',
+					'class' => 'btn-danger'
+				),
 			)
 		),
+		'create'=> array(
+			'ICON' => 'fa-cube',
+			'JUMBO' => array( 
+				'HEAD' => 'Create a New Blox',
+				'QUOTE' => 'Blox are made up of HTML, CSS, & Javascript.' 
+			)
+		),
+		'read'=> array(
+			'ICON' => 'fa-boox',
+			'JUMBO' => array( 
+				'HEAD' => 'Countless Numbers of Blox',
+				'QUOTE' => 'The Nexus is Home to a Million Blox. Be sure to find your favorite ones.' 
+			)
+		),
+		'update'=> array(
+			'ICON' => 'fa-cubes',
+			'JUMBO' => array( 
+				'HEAD' => 'Edit Blox to Your Liking',
+				'QUOTE' => 'Change a Blox the way You want it to behave.' 
+			)
+		),
+		'delete'=> array(
+			'ICON' => 'fa-bomb',
+			'JUMBO' => array( 
+				'HEAD' => 'Delete Blox',
+				'QUOTE' => 'Jump right in! Become aquainted with the many different blocks to use to build your Kingdom.' 
+			)
+		)
 
 	);
 }

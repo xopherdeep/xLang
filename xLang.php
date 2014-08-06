@@ -8,7 +8,8 @@
  * @mini language 
  * @link lang
  * @see domain
- * @todo 
+ * @delta true
+ * @release delta  
  */
 class xLang extends Xengine {
 

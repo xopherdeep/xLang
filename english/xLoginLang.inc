@@ -15,7 +15,10 @@ class xLoginLang {
 	// Used for Complex values.
 	var $_LANG = array(
 		'emails'		=> array(
-			'backend_key' => "Hello",
+			'key' => array(
+				'sub' => " has given you a Key to ",
+				'msg' => "Hello1"
+			)
 		),
 		'ICON' => 'fa-key',
 		'JUMBO' => array(

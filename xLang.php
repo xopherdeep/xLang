@@ -1,16 +1,16 @@
 <?php
 /**
- * @author dev@domain.com
- * @name Language
- * @desc Change the Languauge on your Site.
- * @version v1.0.2
- * @icon applications-education-language.png 
- * @mini language 
- * @link lang
- * @see domain
- * @delta true
- * @release delta  
- */
+* @author dev@domain.com
+* @name Language
+* @desc Change the Languauge on your Site.
+* @version v1.0.3
+* @icon applications-education-language.png 
+* @mini language 
+* @link lang
+* @see domain
+* @release false
+* @alpha true
+**/
 class xLang extends Xengine {
 
 	// Adds a language setting to the users profile table. 

@@ -7,7 +7,7 @@
 * @icon applications-education-language.png 
 * @mini language 
 * @link lang
-* @see domain
+* @see radius
 * @release false
 * @alpha true
 **/

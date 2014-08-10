@@ -48,6 +48,14 @@ class xShopLang {
 				)
 			),
 		),
+		'upload' => array(
+			'ICON'  => 'fa-cloud-upload',
+			'JUMBO' => array(
+				'HEAD' => 'Upload',
+				'QUOTE' => 'Quickly add files to your shop by uploading pictures of the items.',
+				 
+			),
+		),
 
 		'CONFIG' => array(
 			'SITE' => array(

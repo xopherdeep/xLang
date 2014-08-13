@@ -17,7 +17,7 @@ class xShopLang {
 					'a' => '<i class="fa fa-book"></i> Catalog &nbsp; ',
 					'class' => 'btn-primary'
 				),
-				'items'	=> array(
+				'inventory'	=> array(
 					'a' => '<i class="fa fa-cube"></i> Inventory &nbsp; ',
 					'class' => 'btn-success'
 				),
@@ -56,7 +56,7 @@ class xShopLang {
 				 
 			),
 		),
-		'items' => array(
+		'inventory' => array(
 			'ICON'  => 'fa-cubes',
 			'JUMBO' => array(
 				'HEAD' => 'Inventory',

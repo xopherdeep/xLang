@@ -21,6 +21,10 @@ class xShopLang {
 					'a' => '<i class="fa fa-cube"></i> Inventory &nbsp; ',
 					'class' => 'btn-success'
 				),
+				'orders'	=> array(
+					'a' => '<i class="fa fa-truck fa-flip-horizontal"></i> Orders &nbsp; ',
+					'class' => 'btn-danger'
+				),
 				// 'shipments'	=> array(
 				// 	'a' => '<i class="fa fa-truck"></i> Shipments &nbsp; ',
 				// 	'class' => 'btn-danger'
@@ -61,6 +65,15 @@ class xShopLang {
 			'JUMBO' => array(
 				'HEAD' => 'Inventory',
 				'QUOTE' => 'An interactive catalog manager. Oragnize your goods for the good of your customers ;)',
+				 
+			),
+		),
+
+		'orders' => array(
+			'ICON'  => 'fa-truck fa-flip-horizontal',
+			'JUMBO' => array(
+				'HEAD' => 'Orders',
+				'QUOTE' => 'Easily See where to ship to and where all your products are.',
 				 
 			),
 		),

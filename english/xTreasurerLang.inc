@@ -6,7 +6,6 @@ class xTreasurerLang {
 	var $_LANG = array(
 		'ICON'  => 'fa-credit-card',	
 		'JUMBO' => array( 
-			
 			'HEAD' => 'Treasurer',
 			'QUOTE' => 'Control how money is collected online.',
 			'BTN'	=> array(
@@ -46,26 +45,46 @@ class xTreasurerLang {
 					'desc' => 'Enter the main email address that will be collecting funds through paypal.',
 					'icon' => 'fa fa-envelope',
 				),
-				'swipe_test_secret'  => array(
+				'stripe_live_test' => array(
+					'txt'  => 'Stripe Test or Live',
+					'desc' => 'Turn to test mode to test fake credit card numbers and trasactions. Switch to LIVE when ready to accept real cards.',
+					'type' => 'radio',
+					'icon' => 'fa fa-check',
+					'labels' => array(
+						array(
+							'txt' => 'Live',
+							'value' => 'live'
+						),
+						array(
+							'txt' => 'Test',
+							'value' => 'test'
+						),
+						array(
+							'txt' => 'Off',
+							'value' => false
+						)
+					)
+				),
+				'stripe_test_secret'  => array(
 					'txt'  => '',
 					'href' => 'https://dashboard.stripe.com/account/apikeys',
 					'icon' => 'fa fa-key fa-flip-vertical',
 				),
-				'swipe_test_publish' => array(
+				'stripe_test_publish' => array(
 					'txt'  => '',
 					'href' => 'https://dashboard.stripe.com/account/apikeys',
 					'icon' => 'fa fa-key fa-flip-horizontal',
 				),
-				'swipe_live_secret'  => array(
+				'stripe_live_secret'  => array(
 					'txt'  => '',
 					'href' => 'https://dashboard.stripe.com/account/apikeys',
 					'icon' => 'fa fa-key  fa-flip-horizontal fa-flip-vertical',
 				),
-				'swipe_live_publish'  => array(
+				'stripe_live_publish'  => array(
 					'txt'  => '',
 					'href' => 'https://dashboard.stripe.com/account/apikeys',
 					'icon' => 'fa fa-key',
-				),
+				)
 			)
 		),
 		'upload' => array(

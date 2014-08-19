@@ -9,10 +9,10 @@ class xTreasurerLang {
 			'HEAD' => 'Treasurer',
 			'QUOTE' => 'Control how money is collected online.',
 			'BTN'	=> array(
-				'settings'	=> array(
-					'a' => '<i class="fa fa-gear"></i> Settings &nbsp; ',
-					'class' => 'btn-info btn-sm'
-				),
+				// 'settings'	=> array(
+				// 	'a' => '<i class="fa fa-gear"></i> Settings &nbsp; ',
+				// 	'class' => 'btn-info btn-sm'
+				// ),
 				// 'shipments'	=> array(
 				// 	'a' => '<i class="fa fa-truck"></i> Shipments &nbsp; ',
 				// 	'class' => 'btn-danger'
@@ -49,7 +49,7 @@ class xTreasurerLang {
 					'txt'  => 'Stripe Test or Live',
 					'desc' => 'Turn to test mode to test fake credit card numbers and trasactions. Switch to LIVE when ready to accept real cards.',
 					'type' => 'radio',
-					'icon' => 'fa fa-check',
+					'icon' => 'fa fa-credit-card',
 					'labels' => array(
 						array(
 							'txt' => 'Live',
@@ -68,17 +68,17 @@ class xTreasurerLang {
 				'stripe_test_secret'  => array(
 					'txt'  => '',
 					'href' => 'https://dashboard.stripe.com/account/apikeys',
-					'icon' => 'fa fa-key fa-flip-vertical',
+					'icon' => 'fa fa-lock',
 				),
 				'stripe_test_publish' => array(
 					'txt'  => '',
 					'href' => 'https://dashboard.stripe.com/account/apikeys',
-					'icon' => 'fa fa-key fa-flip-horizontal',
+					'icon' => 'fa fa-key fa-rotate-90',
 				),
 				'stripe_live_secret'  => array(
 					'txt'  => '',
 					'href' => 'https://dashboard.stripe.com/account/apikeys',
-					'icon' => 'fa fa-key  fa-flip-horizontal fa-flip-vertical',
+					'icon' => 'fa fa-lock',
 				),
 				'stripe_live_publish'  => array(
 					'txt'  => '',

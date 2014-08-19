@@ -1,30 +1,15 @@
 <?php
 /** 
  */
-class xShopLang {
+class xTreasurerLang {
 	// Used for Complex values.
 	var $_LANG = array(
-		'JUMBO' => array(
-			'HEAD' => 'Super Shop',
-			'QUOTE' => '<b>Welcome</b>; to your Online Bazaar. Where you connect to the world to exchange Goods & Services.',
+		'ICON'  => 'fa-credit-card',	
+		'JUMBO' => array( 
+			
+			'HEAD' => 'Treasurer',
+			'QUOTE' => 'Control how money is collected online.',
 			'BTN'	=> array(
-
-				'upload'	=> array(
-					'a' => '<i class="fa fa-photo"></i> Upload &nbsp; ',
-					'class' => 'btn-info btn-sm'
-				),
-				'catalog'	=> array(
-					'a' => '<i class="fa fa-book"></i> Catalog &nbsp; ',
-					'class' => 'btn-primary btn-sm'
-				),
-				'inventory'	=> array(
-					'a' => '<i class="fa fa-cube"></i> Inventory &nbsp; ',
-					'class' => 'btn-success btn-sm'
-				),
-				'orders'	=> array(
-					'a' => '<i class="fa fa-truck fa-flip-horizontal"></i> Orders &nbsp; ',
-					'class' => 'btn-danger btn-sm'
-				),
 				'settings'	=> array(
 					'a' => '<i class="fa fa-gear"></i> Settings &nbsp; ',
 					'class' => 'btn-info btn-sm'
@@ -35,11 +20,11 @@ class xShopLang {
 				// )
 			)
 		),
-		'catalog' => array(
-			'ICON'  => 'fa-book',
+		'settings' => array(
+			'ICON'  => 'fa-gear',
 			'JUMBO' => array(
-				'HEAD' => 'Import to Catalog',
-				'QUOTE' => 'These are pictures that have yet to be added to your shop.',	
+				'HEAD' => 'Treasurer Settings',
+				'QUOTE' => 'Enter the Keys & Email',	
 				'BTN'	=> array(
 					'shelves'	=> array(
 						'a' => '<i class="fa fa-book"></i> Catalog &nbsp; ',
@@ -55,6 +40,33 @@ class xShopLang {
 					''
 				)
 			),
+			'input' => array(
+				'paypal_email' => array( 
+					'txt'  => '',
+					'desc' => 'Enter the main email address that will be collecting funds through paypal.',
+					'icon' => 'fa fa-envelope',
+				),
+				'swipe_test_secret'  => array(
+					'txt'  => '',
+					'href' => 'https://dashboard.stripe.com/account/apikeys',
+					'icon' => 'fa fa-key fa-flip-vertical',
+				),
+				'swipe_test_publish' => array(
+					'txt'  => '',
+					'href' => 'https://dashboard.stripe.com/account/apikeys',
+					'icon' => 'fa fa-key fa-flip-horizontal',
+				),
+				'swipe_live_secret'  => array(
+					'txt'  => '',
+					'href' => 'https://dashboard.stripe.com/account/apikeys',
+					'icon' => 'fa fa-key  fa-flip-horizontal fa-flip-vertical',
+				),
+				'swipe_live_publish'  => array(
+					'txt'  => '',
+					'href' => 'https://dashboard.stripe.com/account/apikeys',
+					'icon' => 'fa fa-key',
+				),
+			)
 		),
 		'upload' => array(
 			'ICON'  => 'fa-cloud-upload',

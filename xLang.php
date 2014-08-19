@@ -3,7 +3,7 @@
 * @author dev@domain.com
 * @name Language
 * @desc Change the Languauge on your Site.
-* @version v1(0.5)
+* @version v1(0.6)
 * @icon applications-education-language.png 
 * @mini language 
 * @link lang
@@ -15,12 +15,12 @@ class xLang extends Xengine {
 
 	// Adds a language setting to the users profile table. 
 	function dbSync(){
-			return array(
-				'Users' => array(
-					'xlang_default'	=> array('Type' => 'varchar(255)')
-				)
-			);
-		}
+		return array(
+			'Users' => array(
+				'xlang_default'	=> array('Type' => 'varchar(255)')
+			)
+		);
+	}
 
 	function __construct($sdx=null){
 		$this->sdx = $sdx;

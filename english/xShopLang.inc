@@ -35,6 +35,45 @@ class xShopLang {
 				// )
 			)
 		),
+		'settings' => array(
+			'input' => array(
+
+				'shop_phone' => array(
+					'icon' => 'fa fa-phone'
+				),
+				'shop_fax' => array(
+					'icon' => 'fa fa-fax'
+				),
+				'shop_owner_email' => array( 
+					'txt'  => '',
+					'desc' => 'Enter the main email address that should recieve all point of sale emails',
+					'icon' => 'fa fa-envelope',
+				),
+				'shop_primary_street' => array(
+					'icon' => 'fa fa-home'
+				),
+				'shop_second_street' => array(
+					'icon' => 'fa fa-road'
+				),
+				'shop_municipality_major' => array(
+					'icon' => 'fa fa-building'
+				),
+				'shop_district' => array(
+					'icon' => 'fa fa-plane'
+				),
+				'shop_postal' => array(
+					'icon' => 'fa fa-globe'
+				),
+				'shop_tax' => array(
+					'desc' => 'Enter in the percentage amount to charge tax. Items also must be marked taxable',
+					'icon' => 'fa fa-dollar'
+				),
+				'shop_shipping' => array(
+					'desc' => 'If you have a flat rate shipping rate, enter it here, otherwise leave it blank.',
+					'icon' => 'fa fa-truck'
+				)
+			)
+		),
 		'catalog' => array(
 			'ICON'  => 'fa-book',
 			'JUMBO' => array(

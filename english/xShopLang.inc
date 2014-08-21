@@ -5,7 +5,7 @@ class xShopLang {
 	// Used for Complex values.
 	var $_LANG = array(
 		'JUMBO' => array(
-			'HEAD' => 'Super Shop',
+			'HEAD' => 'Super Bazaar!',
 			'QUOTE' => '<b>Welcome</b>; to your Online Bazaar. Where you connect to the world to exchange Goods & Services.',
 			'BTN'	=> array(
 
@@ -80,7 +80,7 @@ class xShopLang {
 		'catalog' => array(
 			'ICON'  => 'fa-book',
 			'JUMBO' => array(
-				'HEAD' => 'Import to Catalog',
+				'HEAD' => 'Catalog New Items',
 				'QUOTE' => 'These are pictures that have yet to be added to your shop.',	
 				'BTN'	=> array(
 					'shelves'	=> array(
@@ -118,8 +118,8 @@ class xShopLang {
 		'orders' => array(
 			'ICON'  => 'fa-truck fa-flip-horizontal',
 			'JUMBO' => array(
-				'HEAD' => 'Orders',
-				'QUOTE' => 'Easily See where to ship to and where all your products are.',
+				'HEAD' => 'Global Economy',
+				'QUOTE' => 'Easily see where all your products are going & where to ship to next.',
 				 
 			),
 		),

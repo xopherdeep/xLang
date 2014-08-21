@@ -35,6 +35,9 @@ class xShopLang {
 				// )
 			)
 		),
+		'order' 	=> array(
+			'status' => array('Placed','Processed','Packaged','Shipped')
+		),
 		'settings' => array(
 			'input' => array(
 

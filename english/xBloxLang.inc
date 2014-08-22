@@ -49,7 +49,10 @@ class xBloxLang {
 			'ICON' => 'fa-cube',
 			'JUMBO' => array( 
 				'HEAD' => 'Create a New Blox',
-				'QUOTE' => 'Blox are made up of HTML, CSS, & Javascript.' 
+				'QUOTE' => 'Blox are made up of HTML, CSS, Javascript, with a Splash of Server Side Power.' 
+			),
+			'input' => array(
+				'html','css','js'
 			)
 		),
 		'read'=> array(

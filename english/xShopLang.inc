@@ -39,39 +39,47 @@ class xShopLang {
 			'status' => array('Placed','Processed','Packaged','Shipped')
 		),
 		'settings' => array(
-			'input' => array(
+			'ICON'  => 'fa-gear',
+			'JUMBO' => array(
+				'HEAD' => 'Global Economy',
+				'QUOTE' => 'Easily see where all your products are going & where to ship to next.',
+				 
+			),
+			'input' => array( 
+				'phone' => array(
+					'icon' => 'fa fa-phone',
+					'desc' => 'Enter your business phone number here.'
+				),
+				'fax' => array(
 
-				'shop_phone' => array(
-					'icon' => 'fa fa-phone'
+					'icon' => 'fa fa-fax',
+					'desc' => 'If your business has a fax number, enter it here.',
 				),
-				'shop_fax' => array(
-					'icon' => 'fa fa-fax'
-				),
-				'shop_owner_email' => array( 
+				'owner_email' => array( 
 					'txt'  => '',
 					'desc' => 'Enter the main email address that should recieve all point of sale emails',
 					'icon' => 'fa fa-envelope',
 				),
-				'shop_primary_street' => array(
+				'primary_street' => array(
 					'icon' => 'fa fa-home'
 				),
-				'shop_second_street' => array(
+				'second_street' => array(
 					'icon' => 'fa fa-road'
 				),
-				'shop_municipality_major' => array(
+				'municipality_major' => array(
 					'icon' => 'fa fa-building'
 				),
-				'shop_district' => array(
+				'district' => array(
 					'icon' => 'fa fa-plane'
 				),
-				'shop_postal' => array(
+				'postal' => array(
 					'icon' => 'fa fa-globe'
 				),
-				'shop_tax' => array(
+				'tax' => array(
 					'desc' => 'Enter in the percentage amount to charge tax. Items also must be marked taxable',
 					'icon' => 'fa fa-dollar'
 				),
-				'shop_shipping' => array(
+				'shipping' => array(
 					'desc' => 'If you have a flat rate shipping rate, enter it here, otherwise leave it blank.',
 					'icon' => 'fa fa-truck'
 				)
@@ -123,14 +131,8 @@ class xShopLang {
 				 
 			),
 		),
-
-		'CONFIG' => array(
-			'SITE' => array(
-				'NAME'      => 'My SuperDom Site',
-				'MOTO'      => 'A Network of Sites!',
-				'COPYRIGHT' => 'SuperDomX &#copy; 2010~13'
-			)
-		) 
+ 
+ 
 	);
 }
 ?>

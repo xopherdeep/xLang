@@ -41,8 +41,8 @@ class xShopLang {
 		'settings' => array(
 			'ICON'  => 'fa-gear',
 			'JUMBO' => array(
-				'HEAD' => 'Global Economy',
-				'QUOTE' => 'Easily see where all your products are going & where to ship to next.',
+				'HEAD' => 'Bazaar Settings',
+				'QUOTE' => 'Enter the information that will be displayed on customer\'s invoices.',
 				 
 			),
 			'input' => array( 

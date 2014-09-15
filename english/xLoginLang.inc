@@ -27,19 +27,19 @@ class xLoginLang {
 			'QUOTE' => 'Here is ware yar set a path for ye vistors.',
 			'BTN'	=> array(
 				'masterKeys'	=> array(
-					'a' => '<i class="fa fa-key"></i> Master Keys &nbsp; ',
+					'a' => '<i class="fa fa-key"></i> Master Key &nbsp; ',
 					'class' => 'btn-warning'
 				),
 				'fireKeys'	=> array(
-					'a' => '<i class="fa fa-fire"></i>  Fire Keys  &nbsp; ',
+					'a' => '<i class="fa fa-fire"></i>  Red Keys  &nbsp; ',
 					'class' => 'btn-danger'
 				),
 				'waterKeys'	=> array(
-					'a' => '<i class="fa fa-heart"></i>  Water Keys  &nbsp; ',
+					'a' => '<i class="fa fa-heart"></i>  Blue Keys  &nbsp; ',
 					'class' => 'btn-info'
 				),
 				'earthKeys'	=> array(
-					'a' => '<i class="fa fa-globe"></i>  Earth Keys  &nbsp; ',
+					'a' => '<i class="fa fa-globe"></i>  Green Keys  &nbsp; ',
 					'class' => 'btn-success'
 				),
 				'windKeys'	=> array(

@@ -3,7 +3,7 @@
 * @author dev@domain.com
 * @name Language
 * @desc Change the Languauge on your Site.
-* @version v1(0.7)
+* @version v1(0.8)
 * @icon applications-education-language.png 
 * @mini language 
 * @link lang

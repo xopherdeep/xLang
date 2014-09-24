@@ -23,8 +23,8 @@ class xUsersLang {
 		),
 		'ICON' => 'fa-group',
 		'JUMBO' => array( 
-			'HEAD' => 'Who\'s Online?',
-			'QUOTE' => 'A Good Host always makes sure their company is well kept.',
+			'HEAD' => 'Who\'s Online Anyway?',
+			'QUOTE' => 'A great Host makes sure their company is well kept.',
 			'BTN'	=> array( 
 				
 				'read'	=> array(

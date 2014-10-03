@@ -31,19 +31,19 @@ class xLoginLang {
 					'class' => 'btn-warning'
 				),
 				'fireKeys'	=> array(
-					'a' => '<i class="fa fa-fire"></i>  Red Keys  &nbsp; ',
+					'a' => '<i class="fa fa-fire"></i>  Red Key &nbsp; ',
 					'class' => 'btn-danger'
 				),
 				'waterKeys'	=> array(
-					'a' => '<i class="fa fa-heart"></i>  Blue Keys  &nbsp; ',
+					'a' => '<i class="fa fa-user-md"></i>  Blue Key &nbsp; ',
 					'class' => 'btn-info'
 				),
 				'earthKeys'	=> array(
-					'a' => '<i class="fa fa-globe"></i>  Green Keys  &nbsp; ',
+					'a' => '<i class="fa fa-leaf"></i>  Green Key &nbsp; ',
 					'class' => 'btn-success'
 				),
 				'windKeys'	=> array(
-					'a' => '<i class="fa fa-flag"></i>  Wind Keys  &nbsp; ',
+					'a' => '<i class="fa fa-flag"></i>  LVL1 Key  &nbsp; ',
 					'class' => 'btn-wind'
 				)
 			)

@@ -10,12 +10,12 @@ class xTreasurerLang {
 			'QUOTE' => 'Control how money is collected online.',
 			'BTN'	=> array(
 				// 'settings'	=> array(
-				// 	'a' => '<i class="fa fa-gear"></i> Settings &nbsp; ',
-				// 	'class' => 'btn-info btn-sm'
+					// 	'a'     => '<i class="fa fa-gear"></i> Settings &nbsp; ',
+					// 	'class' => 'btn-info btn-sm'
 				// ),
 				// 'shipments'	=> array(
-				// 	'a' => '<i class="fa fa-truck"></i> Shipments &nbsp; ',
-				// 	'class' => 'btn-danger'
+					// 	'a'     => '<i class="fa fa-truck"></i> Shipments &nbsp; ',
+					// 	'class' => 'btn-danger'
 				// )
 			)
 		),

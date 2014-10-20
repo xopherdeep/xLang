@@ -3,7 +3,7 @@
 * @author dev@domain.com
 * @name Language
 * @desc Change the Languauge on your Site.
-* @version v1(1.1)
+* @version v1(1.3)
 * @icon applications-education-language.png 
 * @mini language 
 * @link lang
@@ -57,10 +57,23 @@ class xLang extends Xengine {
 		 
 
 		// $this->dump($lang); 
-		if($_SERVER['REQUEST_URI'] != '/.json'){
-			// $X->dump($_SESSION);?
-			 
+		if($_SERVER['REQUEST_URI'] != '/.json'){ 
+
+			// Current Method
+			$a = 'X'.strtoupper($this->_SET['action']);
+			$m = $this->_SET['method']; 
+
+			$l = $lang[$a];
+
+			$m = $l['methods'][$m];
+
 			return array(
+				'L' => $lang[$a],
+				'lan' => array(
+					'class' => $l,
+					'method' => $m
+				),
+
 				'_LANG' => $lang
 			); 
 

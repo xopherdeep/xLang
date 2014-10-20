@@ -20,40 +20,43 @@ class xYouMeOSLang {
 				'class'		=> 'tile',
 				'vertical' => true, 
 				'menu'     => [[
-					'title'    => 'Whom',
+					'title'    => 'Who',
 					'icon'     => 'fa fa-user',
 					'type'     => 'tabs', 
-					// 'right' => true,
+					'tip'    => 'Tell Me about You',
 					'active'   => true,
 					'menu'     => [[
-						'title'	=> 'Account',
-						'icon' => 'fa fa-key',
+						'title'  => 'Account',
+						'icon'   => 'fa fa-key',
 						'header' => '',
-						'quote' => '',
-						'type' => 'ajax',
+						'quote'  => '',
+						'type'   => 'ajax',
+						'active' => true, 
 
-						'active'   => true, 
-						'input' => [
+						'tip'    => 'Account',
+						'input'  => [
 							'tutor' => [
-								'txt'  => 'Tutor',
-								'desc' => 'Turn on/off the Tutor who tours you through the Universe.',
+								// 'txt'  => 'Tutor',
+								
 								'type' => 'radio',
 								'icon' => 'fa fa-graduation-cap',
 								'col'  => 'col-md-12',
 								'labels' => [
 									[
 										'txt' => 'Tutor',
-										'value' => 'live'
+										'value' => 'live',
+										'tip'  => 'Turn on the Tutor'
 									],
 									[
 										'txt' => 'Off',
-										'value' => false
+										'value' => false,
+										'tip'  => 'Turn off the Tutor'
 									]
 								]
 							], 
 							'username' => [
 								'txt'  => 'Unique Name',
-								'desc' => 'This is your alias, the name of your avatar, your Unique Universe.',
+								'tip' => 'This is your alias, the name of your avatar, your Unique Universe.',
 								// 'type' => 'radio',
 								'icon' => 'fa fa-sun-o',
 								'col'  => 'col-md-4'
@@ -61,7 +64,7 @@ class xYouMeOSLang {
 							'email'  => [
 								'type' => 'email',
 								'txt'  => '',
-								'desc' => 'This is your email, the contact to this account.',
+								'tip' => 'This is your email, the contact to this account.',
 								// 'href' => 'https://dashboard.stripe.com/account/apikeys',
 								'icon' => 'fa fa-envelope',
 								'col'  => 'col-md-4',
@@ -69,7 +72,7 @@ class xYouMeOSLang {
 							'password'  => [
 								'type' => 'password',
 								'txt'  => 'Key',
-								'desc' => 'This is your Key Combo. Make it easy and long by strining together a set of words that only you would know.',
+								'tip' => 'This is your Key Combo. String together a set of words that only you would know.',
 								// 'href' => 'https://dashboard.stripe.com/account/apikeys',
 								'icon' => 'fa fa-key',
 								'col'  => 'col-md-4',
@@ -102,20 +105,23 @@ class xYouMeOSLang {
 				],[
 					'title' => 'Where',
 					'icon' => 'fa fa-map-marker',
+					'tip'    => 'Where you have been in the World',
 					'menu'	=> []
 				],[
 					'title' => 'When',
 					'icon' => 'fa fa-clock-o',
+					'tip'    => 'Important Dates in your Life',
 					'menu'	=> []
 				],[
 					'title' => 'What',
 					'icon' => 'fa fa-compass',
+					'tip'    => 'Content Substance',
 					'menu'	=> [[
 						'title' => 'Pulse',
 						'active' => true,
 						'icon' => 'fa fa-heart',
 						'header'=> 'Explain the Blue Grid.',
-						'quote' => 'Your PULSE magnetizes with the overall Heartbeat of the <a href="" class="tooltips underline" data-toggle="tooltip" title="" data-original-title="Default tooltip">nexus</a>, making this: Your Own System. Help the nexus help you find your community of action and the entities and projects with whom you resonate most. This is a dynamic field, ever changing, and you can update at any time to help the nexus stay current with your passions, focus, and outward expressions.',
+						'quote' => 'Your PULSE magnetizes with the overall Heartbeat of the <a href="#/youMeOS/kinnexus" class="tooltips underline" data-toggle="tooltip" title="" data-original-title="The Nexus is your core to all communications">Nexus</a>, making this: Your Own System. Help the nexus help you find your community of action and the entities and projects with whom you resonate most. This is a dynamic field, ever changing, and you can update at any time to help the nexus stay current with your passions, focus, and outward expressions.',
 						'select' => 'Share the top 5 one-word qualities that best resonate with and most describe YOU right now.',
 						'type' => 'jumbotron'
 					],[
@@ -129,7 +135,8 @@ class xYouMeOSLang {
 					]]
 				],[
 					'title' => 'Why',
-					'icon' => 'fa fa-road',
+					'icon' => 'fa fa-road', 
+					'tip'    => 'Motivation Sauce',
 					'menu'	=> [[
 						'title' => 'Passion',
 						'icon' => 'fa fa-fire',
@@ -150,7 +157,8 @@ class xYouMeOSLang {
 				],[
 					'title' => 'How',
 					'icon' => 'fa fa-question',
-					'type' => 'tabs',
+					'type' => 'tabs', 
+					'tip'    => 'How you do that thing you do',
 					'menu'	=> [[
 						'title'   => 'Super Powers',
 						'icon'    => 'fa fa-bolt',
@@ -170,7 +178,7 @@ class xYouMeOSLang {
 					'quote'=> '',
 					'BTN'	=> [
 						'aboutYou'	=> [
-							'html' => '<i class="fa fa-user"></i> About You&nbsp; ',
+							'html' => '<i class="fa fa-user"></i> &nbsp;',
 							'data' => 'data-toggle="modal"', 
 							'class' => 'btn-info btn-lg btn-alt',
 							'href' => 'aboutYou'

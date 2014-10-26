@@ -272,7 +272,7 @@ class xYouMeOSLang {
 							'city' => [
 								'col' => 'col-md-4',
 								'txt' => 'city',
-								'tip' => 'The city you live in.'
+								'tip' => 'The city, town or village you live in.'
 							]	
 						]
 					],[
@@ -284,32 +284,61 @@ class xYouMeOSLang {
 							'attach_level' => [
 								'type' => 'dropdown',
 								'menu' => [
-									['value' => 'Happily Grounded in...'],
-									['value' => 'Living Intentionally in...'],
-									['value' => 'Ready to Migrate from...'],
-									['value' => 'Willing to Relocate from...'],
-									['value' => 'Currently Seeking New Location while Biding my Time in...'],
+									['value' => 'Happily Grounded in '],
+									['value' => 'Living Intentionally in '],
+									['value' => 'Ready to Migrate from '],
+									['value' => 'Willing to Relocate from '],
+									['value' => 'Currently Seeking New Location while Biding my Time in '],
 									['value' => 'custom']
 								]
 							]
 							'attach_level_custom' => [
 								'txt' => 'Your Answer',
-								'tip' => ''
+								'tip' => ''Your answer should follow the format as in the options above as it will display with your HOME location immediately following so it should end with IN or FROM accordingly.'
 							]
-						]
-						
-						
-						
+						]	
 					],[
 						'title' => 'Location',
 						'col' => 'col-md-4',
 						'txt' => 'Your current Location',
 						'tip' => 'Where are you right now? This is optional. Only most recent entry will show on profile unless you choose to make your Travel History public.',
+						'type' => 'ajax',
+						'input' => [
+							'country' => [
+								'col' => 'col-md-4',
+								'txt' => 'city',
+								'tip' => 'The country you are in right now.'
+							]
+							'state' => [
+								'col' => 'col-md-4',
+								'txt' => 'state or province',
+								'tip' => 'The state or province you are in right now.'
+							]
+							'city' => [
+								'col' => 'col-md-4',
+								'txt' => 'city',
+								'tip' => 'The city, town or village you are in right now.'
+							]	
+						]
 					],[
 						'title' => 'Nomad Satisfaction',
 						'col' => 'col-md-4',
 						'txt' => 'Are you happy on the move?',
 						'tip' => 'With regard to your current location. Which of the following options best describes how you feel about your current situation. This question helps the NEXUS to more closely match you to requests that might interest you based on whether or not you are likely to travel or stay for long term opportunities that might interest you. If you leave this blank then your location will be listed by itself.',
+						'input' => [
+							'nomad_level' => [
+								'type' => 'dropdown',
+								'menu' => [
+									['value' => 'Happily Nomadic and exploring '],
+									['value' => 'Currently Seeking My Hearts True Home while passing through '],
+									['value' => 'custom']
+								]
+							]
+							'nomad_level_custom' => [
+								'txt' => 'Your Answer',
+								'tip' => ''Your answer should follow the format as in the options above as it will display with your current location immediately following so it should end in a way which will make sense with this transition.'
+							]
+						]
 					],[
 						'title' => 'World View', 
 					]]

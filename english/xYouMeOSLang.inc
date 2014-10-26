@@ -414,8 +414,8 @@ class xYouMeOSLang {
 						'icon'    => '',
 						'header'  => 'How you Shine',	
 						'quote'   => 'What subject matters or areas of expertise do you study?'
-						'tip' => 'You may enter any subject or area of expertise that you want. This is optional but each entry should be a single subject and requires CATEGORY, LEVEL OF STUDY, & SOURCE qualifiers. This expertise information alone does not assist the nexus without qualification. Please list one expertise per entry.',
-						'txt' => 'Subject of Study',
+						'tip' => 'You may enter any subject or area of expertise that you want. This is optional but each entry should be a single subject and requires CATEGORY, LEVEL OF STUDY, LEVEL OF EXPERTISE, & SOURCE qualifiers. This expertise information alone does not assist the nexus without qualification. Please list one expertise per entry.',
+						'txt' => 'Subject of Expertise',
 						'type' => ''
 					],[
 						'title' => 'Primary Category',
@@ -445,6 +445,39 @@ class xYouMeOSLang {
 						'icon'    => '',
 						'header'  => 'Skill Level',	
 						'tip'   => 'Please indicate the level of study you have completed for this expertise. You may choose as many as you want for each expertise but must indicate at least one.',
+						'type' => 'dropdowns',
+						'menu' => [
+									['value' => 'I took a few classes.'],
+									['value' => 'I took several years of study but did not complete my program.'],
+									['value' => 'I completed an Associate's Degree.'],
+									['value' => 'I completed a Bachelor's Degree.'],
+									['value' => 'I completed a Master's Degree.'],
+									['value' => 'I completed a Doctorate.'],
+									['value' => 'I completed a Certificate.'],
+									['value' => 'I worked with a Mentor.'],
+									['value' => 'I worked as an apprentice with a Master Level Craftsperson/Expert.'],
+									['value' => 'I got mass quantities of on the job training.'],
+									['value' => 'I am completely self-taught.'],
+									['value' => 'I used the internet to train myself.'],
+									['value' => 'custom']
+								]
+					],[
+						'title' => 'Level of Expertise', 
+						'icon'    => '',
+						'header'  => 'Expertise Level',	
+						'tip'   => 'What Level of Expertise do you feel you have achieved for this SUBJECT? You can choose as many as make sense for each subject but MUST choose at least one.',
+							'type' => 'dropdowns',
+						'menu' => [
+									['value' => 'I am an INTERESTED party. I have no significant experience or knowledge but have a desire to learn more. '],
+									['value' => 'I am a devoted APPRENTICE. I have some knowledge, maybe a little experience.'],
+									['value' => 'I am a JOURNEYMAN/JOURNEYWOMAN with some definite skill and experience. I am able to do some tasks solo but have not yet achieved mastery. I am beginning to mentor apprentices, like a TA (teaching assistant assigned to a Master Level Teacher). '],
+									['value' => 'I am a MASTER. I am an expert in this field, able to do most things with mastery. I may not have the interpersonal skills or desire to also be a teacher.'],
+									['value' => 'I am a MASTER TEACHER. I am an expert who also has the interpersonal skills and desire to train others.'],
+									['value' => 'I am a MASTER SPECIALIZED. I am an expert who has focused in on one area and is uber-knowledgable in that realm.'],
+									['value' => 'I am a CROSS-POLLINATOR. I may not be interested in gaining mastery of this field of expertise but am interested and am acting as witness to bring basic knowledge, information, and updates back to other guilds/knowledge areas in order to aid in the mutually informing collaborative weave and providing a layer of the communication required for whole systems design to function well.'],
+									['value' => 'I am a TRANSLATOR. I understand the basics and the lingo of this field enough to talk about it knowledgeably in articles, essays, and in meetings where others whose knowledge areas intersect or overlap but for whom this area is unknown and can help in those meetings to translate meaning across subject areas for experts from different fields. I may be a master in some other field which works closely with this field and so I have much experience with it despite not being a master of it myself.'],
+									['value' => 'custom']
+								]
 					]]
 				]]
 			],

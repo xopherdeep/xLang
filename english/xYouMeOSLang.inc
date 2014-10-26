@@ -413,26 +413,38 @@ class xYouMeOSLang {
 						'title' => 'Expertise',
 						'icon'    => '',
 						'header'  => 'How you Shine',	
-						'quote'   => 'What subject matters do you study?'
-						'tip' => 'You may enter any subject you want. This is optional but each entry should be a single subject and requires a LEVEL OF STUDY qualifier. This information does not assist the nexus without qualification.'
+						'quote'   => 'What subject matters or areas of expertise do you study?'
+						'tip' => 'You may enter any subject or area of expertise that you want. This is optional but each entry should be a single subject and requires CATEGORY, LEVEL OF STUDY, & SOURCE qualifiers. This expertise information alone does not assist the nexus without qualification. Please list one expertise per entry.',
 						'txt' => 'Subject of Study',
 						'type' => ''
 					],[
 						'title' => 'Primary Category',
 						'icon'    => '',
-						'header'  => 'Areas of Focus',	
+						'header'  => 'Category',	
 						'tip'   => 'Please tag this SUBJECT with as many of the following knowledge areas that you feel apply to your studies of this subject. Please do not tag indiscriminately. This is by no means an exhaustive list but it will help us to match you more efficiently to the resources you require. You may feel like a poly-math and that EVERYTHING you do falls into EVERY category, but that kind of tagging will just bog down the system and render out sorting useless. Please try to be accurate and choose the one or several knowledge areas that you feel this subject most fits into and would be most recognized as fitting into by the largest common denominator of people so that if someone is trying to find an expert in this field, it might occur to them to look first in these categories to see if this SUBJECT is listed.',
 						'type' => 'dropdowns',
 						'menu' => [
-									['value' => 'Happily Grounded in...'],
-									['value' => 'Living Intentionally in...'],
-									['value' => 'Ready to Migrate from...'],
-									['value' => 'Willing to Relocate from...'],
-									['value' => 'Currently Seeking New Location while Biding my Time in...'],
-									['value' => 'custom']
+									['value' => 'Spirituality & Consciousness'],
+									['value' => 'Councilship & Social Self-Governance'],
+									['value' => 'Arts & Culture'],
+									['value' => 'Media & Communications'],
+									['value' => 'Wellness'],
+									['value' => 'Village Infrastructure & Basic Human Needs (Community Design, Shelter, Food, Water, Waste, Energy, Transportation)'],
+									['value' => 'Education & Learning'],
+									['value' => 'Conscious Enterprise & Sacred Economics'],
+									['value' => 'Relations (Personal, Interpersonal, Community, Indigenous, Intercultural, Earth)'],
+									['value' => 'Guardianship & Security'],
+									['value' => 'Science & Technology'],
+									['value' => 'Earth Stewardship & Rejuvenation'],
+									['value' => 'Intentional Gatherings Guild (Conscious Event Producers)'],
+									['value' => 'Land-Based Community Network Guild (Land Owners)']
+									['value' => 'Nodal Network Conscious Technology Guild (Social Tech Designers / Builders)']
 								]
 					],[
 						'title' => 'Level of Skill', 
+						'icon'    => '',
+						'header'  => 'Skill Level',	
+						'tip'   => 'Please indicate the level of study you have completed for this expertise. You may choose as many as you want for each expertise but must indicate at least one.',
 					]]
 				]]
 			],

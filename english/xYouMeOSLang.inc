@@ -145,7 +145,7 @@ class xYouMeOSLang {
 							],
 							'email'  => [
 								'type' => 'email',
-								'txt'  => '',
+								'txt'  => 'Email',
 								'tip' => 'This is your email address, the contact for this account.',
 								// 'href' => 'https://dashboard.stripe.com/account/apikeys',
 								'icon' => 'fa fa-envelope',
@@ -183,7 +183,6 @@ class xYouMeOSLang {
 								'col-md' => '12',
 								'type'   => 'textarea',
 								'txt'    => 'Describe Yourself',
-
 								'tip' => 'How would you like to share yourself with other members of the UMEOS Come-Unity? What would you like them to know about you to instill a sense of trust, alignment, and comraderie?',
 								// 'href'   => 'https://dashboard.stripe.com/account/apikeys',
 								'icon'   => 'fa fa-key fa-rotate-90',
@@ -240,22 +239,41 @@ class xYouMeOSLang {
 					'tip'    => 'Where you have been in the World?',
 					'type' => 'tabs',
 					'menu'	=> [[
+						'title' => 'Status',
+						'col' => 'col-md-4',
+						'txt' => 'HOME or Roam?',
+						'tip' => 'Do you have a primary place where you live, feel grounded, spend most of your time, and with whom you have deep connections and interactions? If you do not feel that you have a HOME right now but are continuously on the move, you may check the NOMADIC box instead. This locational information is important in helping the nexus match you to resources and events that are near you that you would be interested in knowing about, as well as in helping your nomadic friend be able to send a group message to all of his friends in Boulder, Colorado to let them know he will be in town for a week. Exact addresses are not required for this functionality, just general vicinity.',
+						'input' => [
+							'status_opt' => [
+								'type' => 'radio',
+								'menu' => [
+									['value' => 'HAVE A HOME'],
+									['value' => 'NOMADIC']
+								]
+							]
+						]
+					],[
 						'title' => 'Home',
 						'col' => 'col-md-4',
 						'txt' => 'Where You call HOME',
 						'tip' => 'What is the primary place where you live, feel grounded, spend most of your time, and with whom you have deep connections and interactions? If you do not feel that you have a HOME right now but are continuously on the move, you may check the NOMADIC box instead. This locational information is important in helping the nexus match you to resources and events that are near you that you would be interested in knowing about, as well as in helping your nomadic friend be able to send a group message to all of his friends in Boulder, Colorado to let them know he will be in town for a week. Exact addresses are not required for this functionality, just general vicinity.',
 						'type' => 'ajax',
 						'input' => [
-							'city' => [
+							'country' => [
 								'col' => 'col-md-4',
 								'txt' => 'city',
-								'tip' => 'The city you live in.'
+								'tip' => 'The country you live in.'
 							]
 							'state' => [
 								'col' => 'col-md-4',
 								'txt' => 'state or province',
 								'tip' => 'The state or province you live in.'
 							]
+							'city' => [
+								'col' => 'col-md-4',
+								'txt' => 'city',
+								'tip' => 'The city you live in.'
+							]	
 						]
 					],[
 						'title' => 'Attachment Level',

@@ -478,6 +478,12 @@ class xYouMeOSLang {
 									['value' => 'I am a TRANSLATOR. I understand the basics and the lingo of this field enough to talk about it knowledgeably in articles, essays, and in meetings where others whose knowledge areas intersect or overlap but for whom this area is unknown and can help in those meetings to translate meaning across subject areas for experts from different fields. I may be a master in some other field which works closely with this field and so I have much experience with it despite not being a master of it myself.'],
 									['value' => 'custom']
 								]
+					],[
+						'title' => 'Source of Expertise', 
+						'icon'    => '',
+						'header'  => 'Source',	
+						'tip'   => 'Where or with whom did you study this subject area. This answer can be the name of a school, education center, impact center, online education program, on the job training program, or name of a mentor/educator.',
+						'txt' => 'School / Teacher'
 					]]
 				]]
 			],

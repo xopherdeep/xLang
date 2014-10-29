@@ -10,6 +10,11 @@
  * @ROOT Omega Space
  * @OFF Sign Off :)
  * @login Who... R U?
+ * @BTN7 Save
+ * @BTN8 Load Box
+ * @DELETEBTN Remove<br/>Section
+ * @blah
+ * @whatever THisis the value of whatver.
  */
 class xYouMeOSLang {
 	// Used for Complex values.
@@ -91,18 +96,18 @@ class xYouMeOSLang {
 				]
 			],
 			'aboutYou' => [
-				'type'     => 'tabs',
-				'title'    => 'OmniSelf',
-				'icon'     => 'fa fa-user', 
-				'class'		=> 'tile',
+				'type'        => 'tabs',
+				'title'       => 'OmniSelf',
+				'icon'        => 'fa fa-user', 
+				'class'       => 'tile',
 				// 'vertical' => true, 
-				'menu'     => [[
-					'title'    => 'Who',
-					'icon'     => 'fa fa-user',
-					'type'     => 'tabs', 
+				'menu'        => [[
+					'title'  => 'Who',
+					'icon'   => 'fa fa-user',
+					'type'   => 'tabs', 
 					'tip'    => 'Tell Me about You.',
-					'active'   => true,
-					'menu'     => [[
+					'active' => true,
+					'menu'   => [[
 						'title'  => 'You',
 						'icon'   => 'fa fa-user-md',
 						'header' => 'Tell Me about You',
@@ -122,8 +127,8 @@ class xYouMeOSLang {
 								'txt'  => 'Unique Name',
 								'tip' => 'This is your username, your alias, the name of your avatar, your Unique Universe.',
 								// 'type' => 'radio',
-								'icon' => 'fa fa-sun-o',
-								'col'  => 'col-md-4'
+								'icon'    => 'fa fa-sun-o',
+								'col'     => 'col-md-4'
 							],
 							'email'  => [
 								'type' => 'email',

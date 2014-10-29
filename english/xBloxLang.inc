@@ -59,7 +59,7 @@ class xBloxLang {
 			'ICON' => 'fa-book',
 			'JUMBO' => array( 
 				'HEAD' => 'Countless Numbers of Blox',
-				'QUOTE' => 'The Nexus is Home to a Million Blox. Be sure to find your favorite ones.' 
+				'QUOTE' => 'The Nexus is Home to a Millions of Blox built from and shared with the world.' 
 			)
 		),
 		'update'=> array(

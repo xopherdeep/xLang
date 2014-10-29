@@ -26,26 +26,27 @@ class xLoginLang {
 			'HEAD' => 'Captain\'s Blog',
 			'QUOTE' => 'Here is ware yar set a path for ye vistors.',
 			'BTN'	=> array(
-				'masterKeys'	=> array(
-					'a' => '<i class="fa fa-key"></i> Master Key &nbsp; ',
-					'class' => 'btn-warning'
-				),
-				'fireKeys'	=> array(
-					'a' => '<i class="fa fa-fire"></i>  Red Key &nbsp; ',
-					'class' => 'btn-danger'
-				),
-				'waterKeys'	=> array(
-					'a' => '<i class="fa fa-user-md"></i>  Blue Key &nbsp; ',
+				
+				'windKeys'	=> array(
+					'a' => '<i class="fa fa-flag"></i>  Entry Key  &nbsp; ',
 					'class' => 'btn-info'
 				),
 				'earthKeys'	=> array(
 					'a' => '<i class="fa fa-leaf"></i>  Green Key &nbsp; ',
 					'class' => 'btn-success'
 				),
-				'windKeys'	=> array(
-					'a' => '<i class="fa fa-flag"></i>  LVL1 Key  &nbsp; ',
-					'class' => 'btn-wind'
-				)
+				'waterKeys'	=> array(
+					'a' => '<i class="fa fa-user-md"></i>  Blue Key &nbsp; ',
+					'class' => 'btn-primary'
+				),
+				'fireKeys'	=> array(
+					'a' => '<i class="fa fa-fire"></i>  Red Key &nbsp; ',
+					'class' => 'btn-danger'
+				),
+				'masterKeys'	=> array(
+					'a' => '<i class="fa fa-key"></i> Master Key &nbsp; ',
+					'class' => 'btn-warning'
+				),
 			)
 		),
 		'keys' => array(

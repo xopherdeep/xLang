@@ -17,7 +17,7 @@ class xLoginLang {
 		'emails'		=> array(
 			'key' => array(
 				'sub' => " has given you a Key to ",
-				'msg' => "Hello1"
+				'msg' => "Hello"
 			)
 		),
 		'ICON' => 'fa-key',

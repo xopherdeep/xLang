@@ -8,13 +8,7 @@
  * @SOLAR Orbiting Systems
  * @SACRAL O' Sands of Time
  * @ROOT Omega Space
- * @OFF Sign Off :)
- * @login Who... R U?
- * @BTN7 Save
- * @BTN8 Load Box
- * @DELETEBTN Remove<br/>Section
- * @blah
- * @whatever THisis the value of whatver.
+ * @OFF Sign Off :) 
  */
 class xYouMeOSLang {
 	// Used for Complex values.

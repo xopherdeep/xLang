@@ -8,6 +8,7 @@
  * @SOLAR Orbiting Systems
  * @SACRAL O' Sands of Time
  * @ROOT Omega Space
+ * @OFF Sign Off :)
  * @login Who... R U?
  */
 class xYouMeOSLang {
@@ -24,7 +25,7 @@ class xYouMeOSLang {
 							// 	'class' => 'icon fa-3x pull-right',
 							// 	'html' => '&#61698;'
 							// ],
-							'html' => 'Optimal Scope',
+							'html' => 'Omni Scope',
 						],
 						'blockquote' => 'Oversee your whole Web',
 						'a' => [
@@ -48,11 +49,11 @@ class xYouMeOSLang {
 								'class' => 'icon fa-3x pull-right',
 								'html' => '&#61925;'
 							],
-							'html' => 'OmniSelf',
+							'html' => 'Omni Self',
 						],
 						'blockquote' => 'Organize your Spectrum',
 						'a' => [
-							'html'  => '<i class="fa fa-sun-o"></i>',
+							'html'  => '<i class="fa fa-cloud"></i> About You',
 							'class' => 'btn-info btn-lg btn-alt',
 							'attr'  => [
 								'data-toggle'  => 'modal', 
@@ -67,27 +68,7 @@ class xYouMeOSLang {
 					'widget'	=> [
 
 					]
-				]],
-				'bulletin' => [
-					'head' => 'Omni Self',
-					'cover'=> '/img/skin-greenish.jpg',
-					'icon' => ' <span class="icon pull-right fa-5x">&#61925;</span>',
-					'quote'=> 'Control All Spheres',
-					'BTN'	=> [
-						'aboutYou'	=> [
-							// 'html' => '<i class="fa fa-user"></i> &nbsp;',
-							'data' => 'data-toggle="modal"', 
-							'class' => 'btn-info btn-lg btn-alt',
-							'href' => 'aboutYou'
-						],
-						// 'addSphere'	=> [
-						// 	'html' => '<i class="fa fa-plus"></i> Add Sphere&nbsp;',
-						// 	// 'data' => 'data-toggle="modal"', 
-						// 	'class' => 'btn-info btn-lg btn-alt disable',
-						// 	'href' => ''
-						// ] 
-					]
-				],
+				]], 
 				'bulletin' => [
 					'head' => 'Omni Self',
 					'cover'=> '/img/skin-greenish.jpg',

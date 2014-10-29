@@ -8,7 +8,9 @@
  * @SOLAR Orbiting Systems
  * @SACRAL O' Sands of Time
  * @ROOT Omega Space
- * @OFF Sign Off :) 
+ * @OFF Sign Off :)
+ * @login Who... R U?
+ * @BTN7 Save
  */
 class xYouMeOSLang {
 	// Used for Complex values.
@@ -133,41 +135,41 @@ class xYouMeOSLang {
 								'col'  => 'col-md-4',
 							],
 							'birthdate' => [
-								'type' => '',
+								
 								'txt' => 'Date of Birth',
 								'tip' => 'This is your date of birth, required to determine your eligibility for legal use of any website on the internet. We are concerned for your saftey. This is for internal purposes only, and will not be posted on your profile.',
-								'icon' => '',
+								'icon' => 'fa fa-calendar',
 								'col'  => 'col-md-4',
 							],
 							'website' => [
 								'type' => 'fields',
 								'txt' => 'Your Website',
 								'tip' => 'This is the URL of your personal website or blog to offer more insights about you to the Come-Unity and help promote your activities in the world.',
-								'icon' => '',
-								'col'  => 'col-md-4'
+								'icon' => 'fa fa-globe',
+								'col'  => 'col-md-8'
 							],
 							'title' => [
-								'type' => '',
+								
 								'txt' => 'Your Title',
 								'tip' => 'Please share your purposeful title. What are you here to do & BE for the world. 1-3 words. This is a title, not a sentence or individual words. Can be your primary profession or your visioned purpose or both combined. Ex: Networking Efficiency Guru OR Conscious Technologist OR Nomadic Ambassador OR Airline Pilot OR Welness Practitioner OR Business Development Consultant',
-								'icon' => '',
-								'col'  => 'col-md-4'
+								'icon' => 'fa fa-shield',
+								'col'  => 'col-md-6'
 							],
 							'team' => [
-								'type' => '',
+								
 								'txt' => 'With or for whom do you work?',
 								'tip' => 'Where or for whom do you fulfill this role? What company, organization or project are you working for or with? EX: Software Developer at Google. If you leave this blank then your title will be listed by itself.',
-								'icon' => '',
-								'col'  => 'col-md-4'
+								'icon' => 'fa fa-briefcase',
+								'col'  => 'col-md-6'
 							],
 							'desc' => [
-								'col-md' => '12',
-								'type'   => 'textarea',
-								'txt'    => 'Describe Yourself',
-								'tip' => 'How would you like to share yourself with other members of the UMEOS Come-Unity? What would you like them to know about you to instill a sense of trust, alignment, and comraderie?',
-								// 'href'   => 'https://dashboard.stripe.com/account/apikeys',
-								'icon'   => 'fa fa-key fa-rotate-90',
-							],
+								'col'     => 'col-md-12',
+								'type'    => 'textarea',
+								'txt'     => 'Describe Yourself',
+								'tip'     => 'How would you like to share yourself with other members of the UMEOS Come-Unity? What would you like them to know about you to instill a sense of trust, alignment, and comraderie?',
+							
+								'icon'    => 'fa fa-comment',
+							]
 						]
 					],[
 						'title'  => 'Account',
@@ -203,15 +205,14 @@ class xYouMeOSLang {
 									]
 								]
 							], 
-							// ,
-							// 'password'  => [
-							// 	'type' => 'password',
-							// 	'txt'  => 'Key',
-							// 	'tip' => 'This is your password, the Key to your Universe.',
-							// 	// 'href' => 'https://dashboard.stripe.com/account/apikeys',
-							// 	'icon' => 'fa fa-key',
-							// 	'col'  => 'col-md-4',
-							// ]
+							'password'  => [
+								'type' => 'password',
+								'txt'  => 'Key',
+								'tip' => 'This is your password, the Key to your Universe.',
+								// 'href' => 'https://dashboard.stripe.com/account/apikeys',
+								'icon' => 'fa fa-key',
+								'col'  => 'col-md-4',
+							]
 						]
 					]]
 				],[

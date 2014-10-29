@@ -2,12 +2,14 @@
 /** 
  * @TITLE YouMeOS
  * @YOU OmniSelf
+ * @OMNISELF Omni Self
  * @open Open Sesame
  * @login Who... R U?
  * @BTN7 Save
  * @BTN8 Load Box
  * @DELETEBTN Remove<br/>Section
  * @blah
+ * @whatever THisis the value of whatver.
  */
 class xYouMeOSLang {
 	// Used for Complex values.
@@ -27,7 +29,7 @@ class xYouMeOSLang {
 						],
 						'blockquote' => 'Oversee your whole Web',
 						'a' => [
-							'html'  => '<i class="fa fa-sun-o"></i>',
+							'html'  => '@whatever',
 							'class' => 'btn-info btn-lg btn-alt',
 							'attr'  => [
 								'data-toggle'  => 'modal', 
@@ -47,7 +49,7 @@ class xYouMeOSLang {
 								'class' => 'icon fa-3x pull-right',
 								'html' => '&#61925;'
 							],
-							'html' => 'OmniSelf',
+							'html' => '@OMNISELF',
 						],
 						'blockquote' => 'Oragnize your Spectrum',
 						'a' => [
@@ -109,18 +111,18 @@ class xYouMeOSLang {
 				]
 			],
 			'aboutYou' => [
-				'type'     => 'tabs',
-				'title'    => 'OmniSelf',
-				'icon'     => 'fa fa-user', 
-				'class'		=> 'tile',
+				'type'        => 'tabs',
+				'title'       => 'OmniSelf',
+				'icon'        => 'fa fa-user', 
+				'class'       => 'tile',
 				// 'vertical' => true, 
-				'menu'     => [[
-					'title'    => 'Who',
-					'icon'     => 'fa fa-user',
-					'type'     => 'tabs', 
+				'menu'        => [[
+					'title'  => 'Who',
+					'icon'   => 'fa fa-user',
+					'type'   => 'tabs', 
 					'tip'    => 'Tell Me about You.',
-					'active'   => true,
-					'menu'     => [[
+					'active' => true,
+					'menu'   => [[
 						'title'  => 'You',
 						'icon'   => 'fa fa-user-md',
 						'header' => 'Tell Me about You',
@@ -137,19 +139,19 @@ class xYouMeOSLang {
 								'col'  => 'col-md-4'
 							], 
 							'username' => [
-								'txt'  => 'Unique Name',
-								'tip' => 'This is your alias, the name of your avatar, your Unique Universe.',
+								'txt'     => 'Unique Name',
+								'tip'     => 'This is your alias, the name of your avatar, your Unique Universe.',
 								// 'type' => 'radio',
-								'icon' => 'fa fa-sun-o',
-								'col'  => 'col-md-4'
+								'icon'    => 'fa fa-sun-o',
+								'col'     => 'col-md-4'
 							],
 							'email'  => [
-								'type' => 'email',
-								'txt'  => '',
-								'tip' => 'This is your email, the contact to this account.',
+								'type'    => 'email',
+								'txt'     => '',
+								'tip'     => 'This is your email, the contact to this account.',
 								// 'href' => 'https://dashboard.stripe.com/account/apikeys',
-								'icon' => 'fa fa-envelope',
-								'col'  => 'col-md-4',
+								'icon'    => 'fa fa-envelope',
+								'col'     => 'col-md-4',
 							],
 							'desc' => [
 								'col-md' => '12',
@@ -187,6 +189,11 @@ class xYouMeOSLang {
 										'txt' => 'Tutor',
 										'value' => 'live',
 										'tip'  => 'Turn on the Tutor'
+									],
+									[
+										'txt' => 'On',
+										'value' => '99',
+										'tip'  => 'Turn the Tutor'
 									],
 									[
 										'txt' => 'Off',
@@ -227,10 +234,16 @@ class xYouMeOSLang {
 						'title' => 'Pulse',
 						'active' => true,
 						'icon' => 'fa fa-heart',
-						'header'=> 'Explain the Blue Grid.',
-						'quote' => 'Your PULSE magnetizes with the overall Heartbeat of the <a href="#/youMeOS/kinnexus" class="tooltips underline" data-toggle="tooltip" title="" data-original-title="The Nexus is your core to all communications">Nexus</a>, making this: Your Own System. Help the nexus help you find your community of action and the entities and projects with whom you resonate most. This is a dynamic field, ever changing, and you can update at any time to help the nexus stay current with your passions, focus, and outward expressions.',
-						'select' => 'Share the top 5 one-word qualities that best resonate with and most describe YOU right now.',
-						'type' => 'jumbotron'
+						'type' => 'bulletin',
+						'html'=> [
+							'div' =>[
+							'header'=> 'Explain the Blue Grid.',
+							'title' => 'Pulse',
+							'icon' => 'fa fa-heart',
+							'quote' => 'Your PULSE magnetizes with the overall Heartbeat of the <a href="#/youMeOS/kinnexus" class="tooltips underline" data-toggle="tooltip" title="" data-original-title="The Nexus is your core to all communications">Nexus</a>, making this: Your Own System. Help the nexus help you find your community of action and the entities and projects with whom you resonate most. This is a dynamic field, ever changing, and you can update at any time to help the nexus stay current with your passions, focus, and outward expressions.',
+							'select' => 'Share the top 5 one-word qualities that best resonate with and most describe YOU right now.',
+							'type' => 'jumbotron'
+						]]
 					],[
 						'title' => 'Reflection',
 

@@ -1,13 +1,14 @@
 <?php
 /** 
  * @TITLE YouMeOS
- * @YOU OmniSelf
- * @open Open Sesame
+ * @CROWN Omni Self
+ * @3RDEYE Omni Scope
+ * @THROAT Omni Sonix
+ * @HEART Omni Source
+ * @SOLAR Orbiting Systems
+ * @SACRAL O' Sands of Time
+ * @ROOT Omega Space
  * @login Who... R U?
- * @BTN7 Save
- * @BTN8 Load Box
- * @DELETEBTN Remove<br/>Section
- * @blah
  */
 class xYouMeOSLang {
 	// Used for Complex values.
@@ -263,12 +264,12 @@ class xYouMeOSLang {
 								'col' => 'col-md-4',
 								'txt' => 'city',
 								'tip' => 'The country you live in.'
-							]
+							],
 							'state' => [
 								'col' => 'col-md-4',
 								'txt' => 'state or province',
 								'tip' => 'The state or province you live in.'
-							]
+							],
 							'city' => [
 								'col' => 'col-md-4',
 								'txt' => 'city',
@@ -291,10 +292,10 @@ class xYouMeOSLang {
 									['value' => 'Currently Seeking New Location while Biding my Time in '],
 									['value' => 'custom']
 								]
-							]
+							],
 							'attach_level_custom' => [
 								'txt' => 'Your Answer',
-								'tip' => ''Your answer should follow the format as in the options above as it will display with your HOME location immediately following so it should end with IN or FROM accordingly.'
+								'tip' => 'Your answer should follow the format as in the options above as it will display with your HOME location immediately following so it should end with IN or FROM accordingly.'
 							]
 						]	
 					],[
@@ -308,12 +309,12 @@ class xYouMeOSLang {
 								'col' => 'col-md-4',
 								'txt' => 'city',
 								'tip' => 'The country you are in right now.'
-							]
+							],
 							'state' => [
 								'col' => 'col-md-4',
 								'txt' => 'state or province',
 								'tip' => 'The state or province you are in right now.'
-							]
+							],
 							'city' => [
 								'col' => 'col-md-4',
 								'txt' => 'city',
@@ -333,10 +334,10 @@ class xYouMeOSLang {
 									['value' => 'Currently Seeking My Hearts True Home while passing through '],
 									['value' => 'custom']
 								]
-							]
+							],
 							'nomad_level_custom' => [
 								'txt' => 'Your Answer',
-								'tip' => ''Your answer should follow the format as in the options above as it will display with your current location immediately following so it should end in a way which will make sense with this transition.'
+								'tip' => 'Your answer should follow the format as in the options above as it will display with your current location immediately following so it should end in a way which will make sense with this transition.'
 							]
 						]
 					],[
@@ -397,7 +398,7 @@ class xYouMeOSLang {
 						'title'   => 'Super Powers',
 						'icon'    => 'fa fa-bolt',
 						'header'  => 'Fuel the Engine!',
-						'active' => true
+						'active' => true,
 						'quote'   => 'Let us acknowledge the gifts and offerings which make us unique and which we bring to the collective table! Be bold and declare the ways in which you shine! Your strengths add to the collective power of the overall engine and will help the nexus match you with KIN in need of those strengths.',
 						'tip' => 'Share the top 5 one-word qualities which best describe the Strengths that are the Heart of your Power.',
 						'type' => 'jumbotron'
@@ -413,7 +414,7 @@ class xYouMeOSLang {
 						'title' => 'Expertise',
 						'icon'    => '',
 						'header'  => 'How you Shine',	
-						'quote'   => 'What subject matters or areas of expertise do you study?'
+						'quote'   => 'What subject matters or areas of expertise do you study?',
 						'tip' => 'You may enter any subject or area of expertise that you want. This is optional but each entry should be a single subject and requires CATEGORY, LEVEL OF STUDY, LEVEL OF EXPERTISE, & SOURCE qualifiers. This expertise information alone does not assist the nexus without qualification. Please list one expertise per entry.',
 						'txt' => 'Subject of Expertise',
 						'type' => ''
@@ -437,7 +438,7 @@ class xYouMeOSLang {
 									['value' => 'Science & Technology'],
 									['value' => 'Earth Stewardship & Rejuvenation'],
 									['value' => 'Intentional Gatherings Guild (Conscious Event Producers)'],
-									['value' => 'Land-Based Community Network Guild (Land Owners)']
+									['value' => 'Land-Based Community Network Guild (Land Owners)'],
 									['value' => 'Nodal Network Conscious Technology Guild (Social Tech Designers / Builders)']
 								]
 					],[
@@ -449,9 +450,9 @@ class xYouMeOSLang {
 						'menu' => [
 									['value' => 'I took a few classes.'],
 									['value' => 'I took several years of study but did not complete my program.'],
-									['value' => 'I completed an Associate's Degree.'],
-									['value' => 'I completed a Bachelor's Degree.'],
-									['value' => 'I completed a Master's Degree.'],
+									['value' => 'I completed an Associate\'s Degree.'],
+									['value' => 'I completed a Bachelor\'s Degree.'],
+									['value' => 'I completed a Master\'s Degree.'],
 									['value' => 'I completed a Doctorate.'],
 									['value' => 'I completed a Certificate.'],
 									['value' => 'I worked with a Mentor.'],

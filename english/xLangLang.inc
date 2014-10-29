@@ -1,46 +1,31 @@
 <?php
 /** 
- * @BTN1 New<br/>Section
- * @BTN2 Copy<br/>Section
- * @BTN3 ReDraw<br/>Section
- * @BTN4 ?
- * @BTN5 New
- * @BTN6 Load Blueprint
- * @BTN7 Save
- * @BTN8 Load Box
- * @DELETEBTN Remove<br/>Section
- * @blah
+ * @LANG Language
+ * @EXAMPLE Copy<br/>Section
  */
-class xBloxLang {
+class xLangLang {
 	// Used for Complex values.
 	var $_LANG = array(
-		'BLOX' => array(
-			'cover' => array(
-				'name' => 'Coversheet',
-				'desc' => 'Every great Website deserves a professionally sexy coverpage',
-				'icon' => ''
-			),
-		),
-		'ICON' => 'fa-cubes',
+		'ICON' => 'fa-language',
 		'JUMBO' => array( 
-			'HEAD' => 'Play in the Toy Blox',
-			'QUOTE' => 'Jump right in! Become aquainted with the many different blocks to use to build your Kingdom.',
-			'BTN'	=> array( 
+			'HEAD'  => 'Manage languages',
+			'QUOTE' => "Lost in translation? Easily be found worldwide!",
+			'BTN'   => array( 
 				
 				'read'	=> array(
-					'a' => '<i class="fa fa-book"></i>  All Blox ',
+					'a' => '<i class="fa fa-book"></i>  All Languages ',
 					'class' => 'btn-info'
 				),
 				'create'	=> array(
-					'a' => '<i class="fa fa-cube"></i>  Create Blox ',
+					'a' => '<i class="fa fa-cube"></i>  Create Language File ',
 					'class' => 'btn-success'
 				),
 				'update'	=> array(
-					'a' => '<i class="fa fa-cubes"></i>  Edit Blox ',
+					'a' => '<i class="fa fa-cubes"></i>  Edit ',
 					'class' => 'btn-primary'
 				),
 				'delete'	=> array(
-					'a' 	=> '<i class="fa fa-bomb"></i>   Delete',
+					'a' 	=> '<i class="fa fa-bomb"></i> Delete',
 					'class' => 'btn-danger'
 				),
 			)

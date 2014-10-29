@@ -1,13 +1,16 @@
 <?php
 /** 
  * @TITLE YouMeOS
- * @YOU OmniSelf
- * @open Open Sesame
+ * @CROWN Omni Self
+ * @3RDEYE Omni Scope
+ * @THROAT Omni Sonix
+ * @HEART Omni Source
+ * @SOLAR Orbiting Systems
+ * @SACRAL O' Sands of Time
+ * @ROOT Omega Space
+ * @OFF Sign Off :)
  * @login Who... R U?
  * @BTN7 Save
- * @BTN8 Load Box
- * @DELETEBTN Remove<br/>Section
- * @blah
  */
 class xYouMeOSLang {
 	// Used for Complex values.
@@ -23,7 +26,7 @@ class xYouMeOSLang {
 							// 	'class' => 'icon fa-3x pull-right',
 							// 	'html' => '&#61698;'
 							// ],
-							'html' => 'Optimal Scope',
+							'html' => 'Omni Scope',
 						],
 						'blockquote' => 'Oversee your whole Web',
 						'a' => [
@@ -47,11 +50,11 @@ class xYouMeOSLang {
 								'class' => 'icon fa-3x pull-right',
 								'html' => '&#61925;'
 							],
-							'html' => 'OmniSelf',
+							'html' => 'Omni Self',
 						],
 						'blockquote' => 'Organize your Spectrum',
 						'a' => [
-							'html'  => '<i class="fa fa-sun-o"></i>',
+							'html'  => '<i class="fa fa-cloud"></i> About You',
 							'class' => 'btn-info btn-lg btn-alt',
 							'attr'  => [
 								'data-toggle'  => 'modal', 
@@ -66,27 +69,7 @@ class xYouMeOSLang {
 					'widget'	=> [
 
 					]
-				]],
-				'bulletin' => [
-					'head' => 'Omni Self',
-					'cover'=> '/img/skin-greenish.jpg',
-					'icon' => ' <span class="icon pull-right fa-5x">&#61925;</span>',
-					'quote'=> 'Control All Spheres',
-					'BTN'	=> [
-						'aboutYou'	=> [
-							// 'html' => '<i class="fa fa-user"></i> &nbsp;',
-							'data' => 'data-toggle="modal"', 
-							'class' => 'btn-info btn-lg btn-alt',
-							'href' => 'aboutYou'
-						],
-						// 'addSphere'	=> [
-						// 	'html' => '<i class="fa fa-plus"></i> Add Sphere&nbsp;',
-						// 	// 'data' => 'data-toggle="modal"', 
-						// 	'class' => 'btn-info btn-lg btn-alt disable',
-						// 	'href' => ''
-						// ] 
-					]
-				],
+				]], 
 				'bulletin' => [
 					'head' => 'Omni Self',
 					'cover'=> '/img/skin-greenish.jpg',
@@ -109,18 +92,18 @@ class xYouMeOSLang {
 				]
 			],
 			'aboutYou' => [
-				'type'     => 'tabs',
-				'title'    => 'OmniSelf',
-				'icon'     => 'fa fa-user', 
-				'class'		=> 'tile',
+				'type'        => 'tabs',
+				'title'       => 'OmniSelf',
+				'icon'        => 'fa fa-user', 
+				'class'       => 'tile',
 				// 'vertical' => true, 
-				'menu'     => [[
-					'title'    => 'Who',
-					'icon'     => 'fa fa-user',
-					'type'     => 'tabs', 
+				'menu'        => [[
+					'title'  => 'Who',
+					'icon'   => 'fa fa-user',
+					'type'   => 'tabs', 
 					'tip'    => 'Tell Me about You.',
-					'active'   => true,
-					'menu'     => [[
+					'active' => true,
+					'menu'   => [[
 						'title'  => 'You',
 						'icon'   => 'fa fa-user-md',
 						'header' => 'Tell Me about You',
@@ -140,8 +123,8 @@ class xYouMeOSLang {
 								'txt'  => 'Unique Name',
 								'tip' => 'This is your username, your alias, the name of your avatar, your Unique Universe.',
 								// 'type' => 'radio',
-								'icon' => 'fa fa-sun-o',
-								'col'  => 'col-md-4'
+								'icon'    => 'fa fa-sun-o',
+								'col'     => 'col-md-4'
 							],
 							'email'  => [
 								'type' => 'email',
@@ -152,41 +135,41 @@ class xYouMeOSLang {
 								'col'  => 'col-md-4',
 							],
 							'birthdate' => [
-								'type' => '',
+								
 								'txt' => 'Date of Birth',
 								'tip' => 'This is your date of birth, required to determine your eligibility for legal use of any website on the internet. We are concerned for your saftey. This is for internal purposes only, and will not be posted on your profile.',
-								'icon' => '',
+								'icon' => 'fa fa-calendar',
 								'col'  => 'col-md-4',
 							],
 							'website' => [
 								'type' => 'fields',
 								'txt' => 'Your Website',
 								'tip' => 'This is the URL of your personal website or blog to offer more insights about you to the Come-Unity and help promote your activities in the world.',
-								'icon' => '',
-								'col'  => 'col-md-4'
+								'icon' => 'fa fa-globe',
+								'col'  => 'col-md-8'
 							],
 							'title' => [
-								'type' => '',
+								
 								'txt' => 'Your Title',
 								'tip' => 'Please share your purposeful title. What are you here to do & BE for the world. 1-3 words. This is a title, not a sentence or individual words. Can be your primary profession or your visioned purpose or both combined. Ex: Networking Efficiency Guru OR Conscious Technologist OR Nomadic Ambassador OR Airline Pilot OR Welness Practitioner OR Business Development Consultant',
-								'icon' => '',
-								'col'  => 'col-md-4'
+								'icon' => 'fa fa-shield',
+								'col'  => 'col-md-6'
 							],
 							'team' => [
-								'type' => '',
+								
 								'txt' => 'With or for whom do you work?',
 								'tip' => 'Where or for whom do you fulfill this role? What company, organization or project are you working for or with? EX: Software Developer at Google. If you leave this blank then your title will be listed by itself.',
-								'icon' => '',
-								'col'  => 'col-md-4'
+								'icon' => 'fa fa-briefcase',
+								'col'  => 'col-md-6'
 							],
 							'desc' => [
-								'col-md' => '12',
-								'type'   => 'textarea',
-								'txt'    => 'Describe Yourself',
-								'tip' => 'How would you like to share yourself with other members of the UMEOS Come-Unity? What would you like them to know about you to instill a sense of trust, alignment, and comraderie?',
-								// 'href'   => 'https://dashboard.stripe.com/account/apikeys',
-								'icon'   => 'fa fa-key fa-rotate-90',
-							],
+								'col'     => 'col-md-12',
+								'type'    => 'textarea',
+								'txt'     => 'Describe Yourself',
+								'tip'     => 'How would you like to share yourself with other members of the UMEOS Come-Unity? What would you like them to know about you to instill a sense of trust, alignment, and comraderie?',
+							
+								'icon'    => 'fa fa-comment',
+							]
 						]
 					],[
 						'title'  => 'Account',
@@ -222,15 +205,14 @@ class xYouMeOSLang {
 									]
 								]
 							], 
-							// ,
-							// 'password'  => [
-							// 	'type' => 'password',
-							// 	'txt'  => 'Key',
-							// 	'tip' => 'This is your password, the Key to your Universe.',
-							// 	// 'href' => 'https://dashboard.stripe.com/account/apikeys',
-							// 	'icon' => 'fa fa-key',
-							// 	'col'  => 'col-md-4',
-							// ]
+							'password'  => [
+								'type' => 'password',
+								'txt'  => 'Key',
+								'tip' => 'This is your password, the Key to your Universe.',
+								// 'href' => 'https://dashboard.stripe.com/account/apikeys',
+								'icon' => 'fa fa-key',
+								'col'  => 'col-md-4',
+							]
 						]
 					]]
 				],[
@@ -263,12 +245,12 @@ class xYouMeOSLang {
 								'col' => 'col-md-4',
 								'txt' => 'city',
 								'tip' => 'The country you live in.'
-							]
+							],
 							'state' => [
 								'col' => 'col-md-4',
 								'txt' => 'state or province',
 								'tip' => 'The state or province you live in.'
-							]
+							],
 							'city' => [
 								'col' => 'col-md-4',
 								'txt' => 'city',
@@ -291,10 +273,10 @@ class xYouMeOSLang {
 									['value' => 'Currently Seeking New Location while Biding my Time in '],
 									['value' => 'custom']
 								]
-							]
+							],
 							'attach_level_custom' => [
 								'txt' => 'Your Answer',
-								'tip' => ''Your answer should follow the format as in the options above as it will display with your HOME location immediately following so it should end with IN or FROM accordingly.'
+								'tip' => 'Your answer should follow the format as in the options above as it will display with your HOME location immediately following so it should end with IN or FROM accordingly.'
 							]
 						]	
 					],[
@@ -308,12 +290,12 @@ class xYouMeOSLang {
 								'col' => 'col-md-4',
 								'txt' => 'city',
 								'tip' => 'The country you are in right now.'
-							]
+							],
 							'state' => [
 								'col' => 'col-md-4',
 								'txt' => 'state or province',
 								'tip' => 'The state or province you are in right now.'
-							]
+							],
 							'city' => [
 								'col' => 'col-md-4',
 								'txt' => 'city',
@@ -333,10 +315,10 @@ class xYouMeOSLang {
 									['value' => 'Currently Seeking My Hearts True Home while passing through '],
 									['value' => 'custom']
 								]
-							]
+							],
 							'nomad_level_custom' => [
 								'txt' => 'Your Answer',
-								'tip' => ''Your answer should follow the format as in the options above as it will display with your current location immediately following so it should end in a way which will make sense with this transition.'
+								'tip' => 'Your answer should follow the format as in the options above as it will display with your current location immediately following so it should end in a way which will make sense with this transition.'
 							]
 						]
 					],[
@@ -397,7 +379,7 @@ class xYouMeOSLang {
 						'title'   => 'Super Powers',
 						'icon'    => 'fa fa-bolt',
 						'header'  => 'Fuel the Engine!',
-						'active' => true
+						'active' => true,
 						'quote'   => 'Let us acknowledge the gifts and offerings which make us unique and which we bring to the collective table! Be bold and declare the ways in which you shine! Your strengths add to the collective power of the overall engine and will help the nexus match you with KIN in need of those strengths.',
 						'tip' => 'Share the top 5 one-word qualities which best describe the Strengths that are the Heart of your Power.',
 						'type' => 'jumbotron'
@@ -413,7 +395,7 @@ class xYouMeOSLang {
 						'title' => 'Expertise',
 						'icon'    => '',
 						'header'  => 'How you Shine',	
-						'quote'   => 'What subject matters or areas of expertise do you study?'
+						'quote'   => 'What subject matters or areas of expertise do you study?',
 						'tip' => 'You may enter any subject or area of expertise that you want. This is optional but each entry should be a single subject and requires CATEGORY, LEVEL OF STUDY, LEVEL OF EXPERTISE, & SOURCE qualifiers. This expertise information alone does not assist the nexus without qualification. Please list one expertise per entry.',
 						'txt' => 'Subject of Expertise',
 						'type' => ''
@@ -437,7 +419,7 @@ class xYouMeOSLang {
 									['value' => 'Science & Technology'],
 									['value' => 'Earth Stewardship & Rejuvenation'],
 									['value' => 'Intentional Gatherings Guild (Conscious Event Producers)'],
-									['value' => 'Land-Based Community Network Guild (Land Owners)']
+									['value' => 'Land-Based Community Network Guild (Land Owners)'],
 									['value' => 'Nodal Network Conscious Technology Guild (Social Tech Designers / Builders)']
 								]
 					],[
@@ -449,9 +431,9 @@ class xYouMeOSLang {
 						'menu' => [
 									['value' => 'I took a few classes.'],
 									['value' => 'I took several years of study but did not complete my program.'],
-									['value' => 'I completed an Associate's Degree.'],
-									['value' => 'I completed a Bachelor's Degree.'],
-									['value' => 'I completed a Master's Degree.'],
+									['value' => 'I completed an Associate\'s Degree.'],
+									['value' => 'I completed a Bachelor\'s Degree.'],
+									['value' => 'I completed a Master\'s Degree.'],
 									['value' => 'I completed a Doctorate.'],
 									['value' => 'I completed a Certificate.'],
 									['value' => 'I worked with a Mentor.'],
